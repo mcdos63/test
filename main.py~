@@ -43,6 +43,7 @@ task_listBox = Listbox(root, height=10, width=50, bg="grey19", fg='White', font=
 task_listBox.place(x=5, y=110)
 
 if __name__  == '__main__':
+    print('Приложение работает!')
     try:
         print('Приложение работает')
         root.mainloop()
